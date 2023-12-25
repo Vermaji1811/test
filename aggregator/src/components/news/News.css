@@ -1,0 +1,112 @@
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+  }
+.card{
+    margin-left: 7.2rem;
+    height: 500px;
+    width: 350px;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+.card card-text{
+    overflow: hidden;
+    height: 100px;
+}
+@media screen and (max-width:578px) {
+    .card{
+        margin-left: 5.2rem;
+        width: 350px;
+    }
+}
+@media screen and (max-width:503px) {
+    .card{
+        margin-left: 4.2rem;
+    }
+}
+@media screen and (max-width:469px) {
+    .card{
+        margin-left: 3.2rem;
+    }
+}
+@media screen and (max-width:437px) {
+    .card{
+        margin-left: 2.2rem;
+    }
+}
+@media screen and (max-width:415px) {
+    .card{
+        margin-left: 1.2rem;
+    }
+}
+@media screen and (max-width:390px) {
+    .card{
+        margin-left: 1.2rem;
+        height: 420px;
+        width: 330px;
+    }
+}
+/* .mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px); 
+    min-height: 100px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 4%;
+    cursor: pointer;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin-bottom: 20px; 
+  }
+  
+  .card:hover {
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translateY(-2px);
+  }
+  
+  .card-header img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 12px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .card {
+      width: calc(50% - 20px); 
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card {
+      width: calc(100% - 20px); 
+    }
+  } */
+  
